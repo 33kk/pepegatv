@@ -4,11 +4,7 @@
 		"fastify-cors": "^4.1.0",
 		"node-fetch": "^2.6.1"
 	},
-	"devDependencies": {
-		"@types/node": "^14.11.2"
-	},
 	"scripts": {
-		"build": "tsc",
-		"start": "npm run build && node init"
+		"start": "node index"
 	}
 }
