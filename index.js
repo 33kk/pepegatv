@@ -120,7 +120,7 @@ async function getStreamUrl(number) {
 }
 
 async function main() {
-	await fastify.listen(3000, "0.0.0.0");
+	await fastify.listen(+process.env["PORT"] || 3000, "0.0.0.0");
 }
 
 main();
